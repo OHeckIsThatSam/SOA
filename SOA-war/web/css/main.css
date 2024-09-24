@@ -1,0 +1,122 @@
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #F2A007;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: block;
+    margin: auto auto auto 20px;
+    overflow: hidden;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+nav ul li{
+    padding: 0px;
+    border-bottom: none;
+}
+
+nav ul li a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    width: auto;
+}
+
+.logoContainer {
+
+}
+
+#formContainer{
+    margin: auto;
+    width: fit-content;
+}
+
+.input {
+    border-radius: 5px;
+}
+
+.submit {
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: white;
+}
+
+#registerLink{
+    text-align: center;
+}
+
+#content section{
+    margin: auto;
+    max-width: 1000px;
+    min-width: 700px;
+    height: auto;
+}
+
+#message{
+    color: red;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F2A007;
+    text-align: center;
+}
+
+footer div{
+    color: black;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#copyright{
+    margin: 0px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.deny {
+    border-radius: 5px;
+    background-color: red;
+    color: black;
+}
+
+.accept {
+    border-radius: 5px;
+    background-color: green;
+    color: black;
+}
